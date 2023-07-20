@@ -1,11 +1,11 @@
 {
-  "name": "DOM Extension",
+  "name": "ToS Check",
   "version": "1.0.0",
-  "description": "Interacting with DOM",
+  "description": "A helpful chrome extension that allows the user to view information about a website's terms of service before signing up.",
   "manifest_version": 3,
   "author": "Aadit Bennur",
   "action": {
-    "default_title": "Test",
+    "default_title": "ToS Check",
     "default_popup": "index.html"
   },
   "permissions": [
