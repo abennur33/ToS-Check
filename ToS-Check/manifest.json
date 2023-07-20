@@ -1,0 +1,23 @@
+{
+  "name": "DOM Extension",
+  "version": "1.0.0",
+  "description": "Interacting with DOM",
+  "manifest_version": 3,
+  "author": "Aadit Bennur",
+  "action": {
+    "default_title": "Test",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

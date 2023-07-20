@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="signUp.css">
+    <script src="signUp.js"></script>
+  </head>
+  <body>
+    <div class="start-content">
+      <h1 id="sign-up-notification">Sign-up page detected!</h1>
+      <p id="terms-instruction">Press the button to see information about the terms of service for the website.</p>
+      <button id="start-button">Start</button>
+      <div id="spinner" class="hidden">
+        <div class="spinner-icon"></div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="popup-content hidden">
+      <h1 id="service-name"></h1>
+      <h2>Overall Rating: <span id="overall-rating"></span></h2>
+      <p>The above rating is on a scale from A-F.<br><br>Below you will find the top 5 most important details about this website's terms and conditions for each category, however you can find out more by clicking "Show More".</p>
+      <div class="toggle-container">
+        <label>
+          <input type="radio" id="toggle-good" name="toggle" value="good">
+          <span>Good</span>
+        </label>
+        <label>
+          <input type="radio" id="toggle-neutral" name="toggle" value="neutral">
+          <span>Neutral</span>
+        </label>
+        <label>
+          <input type="radio" id="toggle-bad" name="toggle" value="bad">
+          <span>Bad</span>
+        </label>
+      </div>
+      <div id="points-container"></div>
+    </div>
+  </body>
+</html>
